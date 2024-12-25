@@ -7,11 +7,11 @@ CurrySense is a mobile application designed to assist visually impaired individu
 - **Dish Recognition**: Uses a trained machine learning model to identify dishes from captured images.
 - **Accessible Interface**: Designed with visually impaired users in mind, featuring voice-guided navigation and screen reader compatibility.
 - **Relevant Information**: Provides additional details about the identified dish, such as ingredients, nutritional information, and possible allergens.
-- **Cross-Platform**: Built using Flutter or React Native for compatibility with both Android and iOS.
+- **Cross-Platform**: Built using Flutter for compatibility with both Android and iOS.
 
 ## Technology Stack
 
-- **Frontend Framework**: Flutter (Dart) or React Native (JavaScript)
+- **Frontend Framework**: Flutter (Dart) 
 - **Machine Learning Model**: TensorFlow Lite or Firebase ML Kit for on-device inference
 - **Backend**: Firebase or Node.js for managing data and user interactions
 - **Cloud Storage**: Firebase Storage or AWS S3 for storing images and model files
@@ -29,12 +29,12 @@ CurrySense is a mobile application designed to assist visually impaired individu
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/CurrySense
+   git clone https://github.com/self1am/curry_sense.git
 .git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd CurrySense
+   cd curry_sense
 
    ```
 3. Install dependencies:
@@ -42,22 +42,13 @@ CurrySense is a mobile application designed to assist visually impaired individu
      ```bash
      flutter pub get
      ```
-   - For React Native:
-     ```bash
-     npm install
-     ```
+
 4. Set up Firebase:
    - Add your Firebase configuration file (`google-services.json` for Android or `GoogleService-Info.plist` for iOS) to the appropriate directories.
 5. Run the application:
    - For Flutter:
      ```bash
      flutter run
-     ```
-   - For React Native:
-     ```bash
-     npx react-native run-android
-     # or
-     npx react-native run-ios
      ```
 
 ## Usage
