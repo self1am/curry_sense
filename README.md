@@ -30,12 +30,10 @@ CurrySense is a mobile application designed to assist visually impaired individu
 1. Clone this repository:
    ```bash
    git clone https://github.com/self1am/curry_sense.git
-.git
    ```
 2. Navigate to the project directory:
    ```bash
    cd curry_sense
-
    ```
 3. Install dependencies:
    - For Flutter:
